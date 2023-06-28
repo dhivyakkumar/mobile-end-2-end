@@ -1,0 +1,41 @@
+[
+  {
+    "name": "local",
+    "caps": {
+      "deviceName": "Android SDK built for x86",
+      "platformVersion": "9",
+      "appPackage": "com.kaching.merchant.kiwi",
+      "appActivity": "com.sumup.merchant.ui.Activities.WelcomeActivity",
+      "platformName": "Android",
+      "url": "http://0.0.0.0:4723/wd/hub"
+    }
+  },
+  {
+    "name": "android",
+    "caps": {
+      "appium:app": "storage:filename=app-app-kiwi-release.apk",
+      "appium:deviceName": "Android GoogleAPI Emulator",
+      "appium:platformVersion": "12.0",
+      "appiumVersion": "1.22.3",
+      "username": "oauths-dhivya.kumar-58f17",
+      "accessKey": "de329d2a-8515-4a07-b775-6e4cf8471bb2",
+      "appPackage": "com.kaching.merchant.kiwi",
+      "appActivity": "com.sumup.merchant.ui.Activities.WelcomeActivity",
+      "platformName": "Android",
+      "url": "https://oauth-dhivya.kumar-58f17:de329d2a-8515-4a07-b775-6e4cf8471bb2@ondemand.us-west-1.saucelabs.com:443/wd/hub"
+    }
+  },
+  {
+    "name": "iOS",
+    "caps": {
+      "appium:app": "storage:filename=Kiwi-3b304b6a31.ipa",
+      "appium:deviceName": "iPhone 11",
+      "appium:platformVersion": "14.8",
+      "appium:automationName": "XCUITest",
+      "username": "oauths-dhivya.kumar-58f17",
+      "accessKey": "de329d2a-8515-4a07-b775-6e4cf8471bb2",
+      "platformName": "iOS",
+      "url": "https://oauth-dhivya.kumar-58f17:de329d2a-8515-4a07-b775-6e4cf8471bb2@ondemand.us-west-1.saucelabs.com:443/wd/hub"
+    }
+  }
+]
